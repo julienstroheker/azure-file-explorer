@@ -34,6 +34,8 @@ docker run -it --rm -p 5000:5000 \
 
 ## Deploy into Kubernetes
 
+Modify the environements variables with you value and apply the .yaml file
+
 ```bash
-kubectl create -f https://....
+kubectl create -f deploy.yaml
 ```
